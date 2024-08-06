@@ -1,0 +1,144 @@
+h2 {
+    font-size: 2em;
+    margin: 0.7em 0;
+    color: #F1F1F1;
+    text-align: center;
+}
+
+.profile-form {
+    flex: 1;
+    background-color: #0d0c1b;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    font-family: 'Redressed', cursive;
+    font-family: 'Ubuntu Mono', monospace;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+.card-comment-user {
+    min-width: 100%;
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow-y: auto;
+    flex-direction: row;
+    padding: 2px;
+}
+
+.card-comment-username{
+    text-align: center;
+    font-size: 15px;
+}
+
+.card-comment-text{
+    font-size: 15px;
+    background-color: #F1F1F1;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.card-comment-options{
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+
+@media (max-width: 600px) {
+    .card-comment-user {
+        min-width: 100%;
+        max-width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow-y: auto;
+        flex-direction: column;
+        padding: 2px;
+    }
+
+    .card-comment-options{
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        margin: 15px;
+    }
+}
+
+.card-comment {
+    min-width: 100%;
+    max-width: 100%;
+    height: 100%;
+    border: solid 1px rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s, color 0.3s;
+    /* Agrega una transición suave para el cambio de color */
+    border-radius: 15px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    
+}
+
+
+.resena-user{
+    width: 100%;
+    height: 90%;
+    color: black;
+    overflow-y: auto;
+}
+
+.comentario-input{
+    max-height: 4rem;
+    min-height: 4rem;
+    width: 100%;
+    overflow-y: auto;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.container-resena-user{
+    background-color: rgba(128, 128, 128, 0.8);
+    width: 100%;
+    height: 625px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.card-resena{
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.card-resena-username{
+    font-size: 15px;
+    padding: 10px;
+}
+
+.card-resena-valoracion{
+    margin-left: 20px;
+}
+
+
+.card-resena-text{
+    width: 90%;
+    font-size: 15px;
+    background-color: #F1F1F1;
+    border-radius: 15px;
+    margin: 15px;
+}

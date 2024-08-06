@@ -1,0 +1,89 @@
+
+  
+  .search-bar {
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .filters select, 
+  .filters input[type="range"] {
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .filter-range {
+    display: flex;
+    align-items: center;
+  }
+  
+  .filter-range label {
+    margin-right: 10px;
+  }
+  
+  .book-catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .book-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-card img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .book-info {
+    text-align: center;
+  }
+  
+  .book-info h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .book-info p {
+    margin: 5px 0;
+  }
+  .book-info button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-info button:hover {
+    background-color: #0056b3;
+  }
+  

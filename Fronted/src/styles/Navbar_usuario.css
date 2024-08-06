@@ -1,0 +1,12 @@
+.text-title {
+    font-size: 1.5rem;
+}
+
+.navbar-items {
+    font-size: 1.5rem;
+}
+
+.navbar-logo {
+    height: 40px; /* Ajusta según el tamaño deseado */
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+}

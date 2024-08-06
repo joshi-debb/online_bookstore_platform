@@ -1,0 +1,19 @@
+.centered-container {
+    width: 100%;
+    height: 100%;
+
+}
+.top {
+    flex: 1;
+    background-color: #1c74da;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    font-family: 'Redressed', cursive;
+    font-family: 'Ubuntu Mono', monospace;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 3%;
+    padding-top: 2.9%;
+}

@@ -1,0 +1,88 @@
+/* Custom CSS for HistorialAdmin component */
+
+.container {
+    margin-top: 20px;
+  }
+  
+  h1 {
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    font-weight: 700;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #007bff;
+  }
+  
+  .card-text button {
+    font-size: 1em;
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  .card-text button:hover {
+    color: #0056b3;
+  }
+  
+  .table {
+    margin-top: 20px;
+  }
+  
+  .table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-body .btn {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  @media (max-width: 576px) {
+    .card-title {
+      font-size: 1.2em;
+    }
+  
+    .card-text button {
+      font-size: 0.9em;
+    }
+  
+    .button {
+      font-size: 0.9em;
+      padding: 8px 16px;
+    }
+  }
+  
